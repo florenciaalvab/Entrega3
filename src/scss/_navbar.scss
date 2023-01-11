@@ -1,0 +1,56 @@
+.navegador{
+    background-color: white;
+    width: 750px;
+    margin:auto;
+    padding: 50px;
+    > ul{
+        list-style-type: none;
+        display: flex;
+        > li{
+            > a{
+                font-size: 22px;
+                color:black;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                display: block;
+                &:hover{
+                    font-weight: bold;
+                    background-color: pink;
+                    padding: 10px;
+                }
+            }    
+        }
+    }
+}
+
+
+.desplegable{
+    >ul{
+        list-style-type: none;
+        flex-direction: column;
+        display: block;
+        >li{
+            float: left;
+            display: none;
+            position: absolute;
+            >a{
+                font-size: 22px;
+                color: black;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                text-align: center;
+                padding: 10px;
+                text-decoration: none;
+                display: block;
+                overflow: hidden;
+                &:hover{
+                    font-weight: bold;
+                    background-color: rgb(248, 225, 229);
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
