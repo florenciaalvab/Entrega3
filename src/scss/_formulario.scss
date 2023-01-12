@@ -1,0 +1,64 @@
+.formulario{
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    position: relative;
+    display: grid;
+    margin-bottom: 60px;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-row-start: auto;
+    
+    
+        .enviarformulario{
+            margin-top: 50px;
+            margin-right: 900px;
+            align-items: center;
+            background-color: lightpink;
+            border: none;
+            color: black;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 8px;
+            transition-duration: 0.4s;
+            &:hover{
+                background-color: rgb(245, 145, 162);
+            }
+        }
+}
+
+
+.form{
+    background-color: beige;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0, 0, 0 / 30%);
+    text-align: center;
+    .formtitulo{
+        font-size: 2rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        bottom: 0.5em;
+    }
+    .formlink{
+        font-weight: 400;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: black;
+    }
+        >.formcontenedor{
+            margin-top: 3em;
+            display: grid;
+            gap: 2.5em;
+        }
+
+}
+

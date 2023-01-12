@@ -22,60 +22,73 @@
       </h3>
     </header>
 
-    <div class="contenedor">
-        <input type="checkbox" id="menu-check">
-        <label id="menu" for="menu-check">
-            <span id="menu-abrir"><i class="fa fa-bars"></i></span>
-            <span id="menu-cerrar">X</span>
-        </label>
-        <nav class="navegador">
-            <ul>
-                <li><a href="/All pages/index.html">Home</a></li>
-                <li class="desplegable"><a href="/All pages/productosgrilla.html">Shop</a>
-                        <ul>
-                            <li><a href="">Denim</a></li>
-                            <li><a href="">Vestidos</a></li>
-                            <li><a href="">Carteras</a></li>
-                        </ul>
-                </li>
-                    <li><a href="/All pages/Pages/quienessomos.html">Quiénes somos</a></li>
-                    <li><a href="">Información</a></li> 
-                    <li><a href="/All pages/Pages/contacto.html">Contacto</a></li>
-            </ul>         
-        </nav>
-    </div>   
-
-    <div>
-        <h2 class="contacto">
-      Contacto
-        </h2> 
-    </div>
-
-     <main class="formulario">
-       
-        
-        <form action="" method="get">
-
-            <label> Nombre y apellido  
-                <input type="text" name="Nombre y apellido" placeholder="" required>
-            </label>
-
-            <label> Email 
-                <input type="email" name="Email" placeholder="" required> 
-            </label>
-
-            <label>Teléfono
-                 <input type="tel" name="Teléfono"placeholder>
-            </label>
-            
-            <textarea name="mensaje" placeholder="deje su mensaje aquí"></textarea>
-            
-           
-            <input class="enviarformulario" type="submit" value="Enviar">
-            
-
-        </form>
+    <nav class="navegador">
+        <label for="menu"><i class="fa fa-bars"></i></label>
+        <input type="checkbox" id="menu">
+        <ul>
+            <li><a href="/All pages/index.html">Home</a></li>
+            <li class="desplegable"><a href="/All pages/productosgrilla.html">Shop</a>
+                    <ul>
+                        <li><a href="">Denim</a></li>
+                        <li><a href="">Vestidos</a></li>
+                        <li><a href="">Carteras</a></li>
+                    </ul>
+            </li>
+                <li><a href="/All pages/Pages/quienessomos.html">Quiénes somos</a></li>
+                <li><a href="">Información</a></li> 
+                <li><a href="/All pages/Pages/contacto.html">Contacto</a></li>
+        </ul>         
+    </nav>
+   
     
+
+    <main>
+        <h2 class="contacto">
+          Contacto
+        </h2>      
+            <form class="form">
+                <h2 class="formtitulo">Inicia Sesión</h2>
+                <p class="formparrafo">¿Todavía no tenes una cuenta? <a href="#" class="formlink">Entra aqui</a></p>
+
+                <div class="formcontenedor">
+                    <div class="formgrupo">
+                        <input type="text" id="name" class="forminput" placeholder=" " required>
+                        <label for="name" class="formlabel">Nombre:</label>
+                        <span class="formline"></span>
+                    </div>
+
+                    <div class="formgrupo">
+                        <input type="text" id="user" class="forminput" placeholder=" " required>
+                        <label for="user" class="formlabel">Usuario:</label>
+                        <span class="formline"></span>
+                        </div>
+
+                    <div class="formgrupo">
+                        <input type="text" id="password" class="forminput" placeholder=" " required>
+                        <label for="password" class="formlabel">contraseña:</label>
+                        <span class="formline"></span>
+                        </div>
+
+                    <input type="submit" class="formsubmitir" value="Entrar">
+                    
+                </div> 
+
+                <label> Email 
+                    <input type="email" name="Email" placeholder="" required> 
+                </label>
+
+                <label>Teléfono
+                    <input type="tel" name="Teléfono"placeholder>
+                </label>
+                
+                <label>Mensaje
+                <textarea name="mensaje" placeholder="Deje su mensaje aquí"></textarea>
+                </label>
+            
+                <input class="enviarformulario" type="submit" value="Enviar">
+                
+
+            </form>
     </main>
   
     <footer class="footer">
