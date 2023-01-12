@@ -3,39 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/88e7c767f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="/Assets/CSS/style.css">
 
 </head>
 
 <body>
-     <header class="portada">
-        <h1 class="inicio">FALVAB</h1>
-     </header>
-     <h3 class="login">
+<header class="portada">
+    <h1 class="inicio">FALVAB</h1>
+    <h3 class="login">
         <a class="login" href="/All pages/Pages/iniciarsesion.html">Iniciar Sesión</a>
      </h3>
+</header>
+
+<div class="contenedor">
+    <input type="checkbox" id="menu-check">
+    <label id="menu" for="menu-check">
+        <span id="menu-abrir"><i class="fa fa-bars"></i></span>
+        <span id="menu-cerrar">X</span>
+    </label>
     <nav class="navegador">
         <ul>
             <li><a href="/All pages/index.html">Home</a></li>
             <li class="desplegable"><a href="/All pages/productosgrilla.html">Shop</a>
-                <ul>
-                    <li><a href="">Denim</a></li>
-                    <li><a href="">Vestidos</a></li>
-                    <li><a href="">Carteras</a></li>
-                </ul>
+                    <ul>
+                        <li><a href="">Denim</a></li>
+                        <li><a href="">Vestidos</a></li>
+                        <li><a href="">Carteras</a></li>
+                    </ul>
             </li>
-            <li><a href="/All pages/Pages/quienessomos.html">Quiénes somos</a></li>
-            <li><a href="">Información</a></li> 
-            <li><a href="/All pages/Pages/contacto.html">Contacto</a></li>
+                <li><a href="/All pages/Pages/quienessomos.html">Quiénes somos</a></li>
+                <li><a href="">Información</a></li> 
+                <li><a href="/All pages/Pages/contacto.html">Contacto</a></li>
         </ul>         
     </nav>
-    
+</div>    
         
     <main> 
         <img class="fotoportada" src="/Assets/IMG/portada.png" alt="portadaropa">
@@ -69,10 +77,8 @@
             </div>
         </div>
         <div class="footer2">
-            <small>&copy; 2023 <b>FALVAB</b> - Todos los Derechos Reservados.</small>
-            
-        </div>
-       
+            <small>&copy; 2023 <b>FALVAB</b> - Todos los Derechos Reservados.</small>    
+        </div>     
     </footer>
     
 </body>
