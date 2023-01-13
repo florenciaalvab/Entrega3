@@ -43,52 +43,39 @@
     
 
     <main>
-        <h2 class="contacto">
-          Contacto
-        </h2>      
-            <form class="form">
-                <h2 class="formtitulo">Inicia Sesión</h2>
-                <p class="formparrafo">¿Todavía no tenes una cuenta? <a href="#" class="formlink">Entra aqui</a></p>
+     
+            <form class="formcon">
+                <h2 class="formcontitulo">Contactanos</h2>
+                <p class="formconparrafo">Podes dejarnos cualquier duda o inquietud que tengas.</p>
 
-                <div class="formcontenedor">
+                <div class="formconcontenedor">
                     <div class="formgrupo">
-                        <input type="text" id="name" class="forminput" placeholder=" " required>
-                        <label for="name" class="formlabel">Nombre:</label>
+                        <input type="text" id="name" class="formconinput" placeholder=" " required>
+                        <label for="name" class="formconlabel">Nombre:</label>
                         <span class="formline"></span>
                     </div>
 
                     <div class="formgrupo">
-                        <input type="text" id="user" class="forminput" placeholder=" " required>
-                        <label for="user" class="formlabel">Usuario:</label>
+                        <input type="text" id="email" class="formconinput" placeholder=" " required>
+                        <label for="email" class="formconlabel">Email</label>
                         <span class="formline"></span>
-                        </div>
+                    </div>
 
                     <div class="formgrupo">
-                        <input type="text" id="password" class="forminput" placeholder=" " required>
-                        <label for="password" class="formlabel">contraseña:</label>
+                        <input type="text" id="asunto" class="formconinput" placeholder=" " required>
+                        <label for="asunto" class="formconlabel">Asunto</label>
                         <span class="formline"></span>
-                        </div>
+                    </div>
 
-                    <input type="submit" class="formsubmitir" value="Entrar">
+                    <div class="formgrupo">
+                        <label for="mensaje" class="formconmensaje">Mensaje</label>
+                        <textarea name="introducir_mensaje" class="textomensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                        <span class="formline"></span>
+                    </div>
+
+                    <input type="submit" class="formconsubmitir" value="Enviar">
                     
                 </div> 
-
-                <label> Email 
-                    <input type="email" name="Email" placeholder="" required> 
-                </label>
-
-                <label>Teléfono
-                    <input type="tel" name="Teléfono"placeholder>
-                </label>
-                
-                <label>Mensaje
-                <textarea name="mensaje" placeholder="Deje su mensaje aquí"></textarea>
-                </label>
-            
-                <input class="enviarformulario" type="submit" value="Enviar">
-                
-
-            </form>
     </main>
   
     <footer class="footer">
