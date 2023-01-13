@@ -20,7 +20,11 @@ main{
     }
 }
 
-main{
+.contenedorsomos{
+    grid-template-columns: 1fr;
+    grid-template-rows: 700px 10em 1fr;
+    max-width: 1700px;
+    width: 100%;
     
     >h2{
         font-size: 35px;
@@ -28,7 +32,7 @@ main{
         font-weight: bold;
         padding: 50px 0px 20px 100px;
     }
- >div{ 
+    >div{ 
         .fotonosotros{
             width: 50%;
             height: auto;
