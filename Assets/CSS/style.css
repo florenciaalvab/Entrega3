@@ -597,6 +597,7 @@ div#slider figure {
 }
 div#slider figure img {
   width: 20%;
+  height: 30%;
   float: left;
 }
 
